@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 2 - Team Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #4B5320;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .team-member {
+            background-color: #ebdde7;
+            border: 1px solid #454346;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .team-member img {
+            max-width: 100px;
+            border-radius: 50%;
+            float: left;
+            margin-right: 20px;
+        }
+        .info h2 {
+            margin-top: 0;
+        }
+        .more {
+            display: none;
+            margin-top: 10px;
+        }
+        input[type="checkbox"]:checked ~ .more {
+            display: block;
+        }
+        label {
+            cursor: pointer;
+            color: #007BFF;
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Meet Our Team</h1>
+    </header>
+
+    <div class="container">
+        <div class="team-member">
+            <img src="janna roldan.jpg" alt="Janna">
+            <div class="info">
+                <h2>Roldan, Janna</h2>
+                <p>Position: Team Leader</p>
+                <p>Janna mabait sobra.</p>
+                <input type="checkbox" id="read-more-janna">
+                <label for="read-more-janna">Read More</label>
+                <div class="more">
+                    <p><strong>Age:</strong> 20 <br>
+                    <strong>Birthday:</strong> June 23, 2004 <br>
+                    <strong>Contact Number:</strong> 09513965408 <br>
+                    <strong>Address:</strong> Blk 15 lot 35 Lilac St. Metroville Complex, San Francisco Halang, Biñan, Laguna</p>
+                </div>
+                <p><a href="#" target="_blank">View Janna’s Github Profile</a></p>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <img src="camella escalon.jpg" alt="Escalon, Camella">
+            <div class="info">
+                <h2>Escalon, Camella</h2>
+                <p>Camella palagi overthink.</p>
+                <input type="checkbox" id="read-more-camella">
+                <label for="read-more-camella">Read More</label>
+                <div class="more">
+                    <p><strong>Age:</strong> 21 <br>
+                    <strong>Birthday:</strong> December 14, 2002<br>
+                    <strong>Contact Number:</strong> 09156487919 <br>
+                    <strong>Address:</strong> SummitVille, Muntinlupa</p>
+                </div>
+                <p><a href="#" target="_blank">View Camella’s Github Profile</a></p>
+            </div>
+        </div>
+        
+        <div class="team-member">
+            <img src="cathylene dela cruz.jpg" alt="Dela Cruz, Cathylene Fate">
+            <div class="info">
+                <h2>Dela Cruz, Cathylene Fate</h2>
+                <p>Cathylene laging active being president.</p>
+                <input type="checkbox" id="read-more-cathylene">
+                <label for="read-more-cathylene">Read More</label>
+                <div class="more">
+                    <p><strong>Age:</strong> 20 <br>
+                    <strong>Birthday:</strong> September 15, 2003 <br>
+                    <strong>Contact Number:</strong> 09275181927 <br>
+                    <strong>Address:</strong> Sitio De Asis SMDP, Parañaque</p>
+                </div>
+                <p><a href="#" target="_blank">View Cathylene’s Github Profile</a></p>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <img src="niña dionisio.jpg" alt="Dionisio, Niña">
+            <div class="info">
+                <h2>Dionisio, Niña</h2>
+                <p>Niña pakshet sayo.</p>
+                <input type="checkbox" id="read-more-nina">
+                <label for="read-more-nina">Read More</label>
+                <div class="more">
+                    <p><strong>Age:</strong> 19 <br>
+                    <strong>Birthday:</strong> September 16, 2004 <br>
+                    <strong>Contact Number:</strong> 09687223057 <br>
+                    <strong>Address:</strong> Sitio Pagkakaisa, Sucat, Muntinlupa</p>
+                </div>
+                <p><a href="#" target="_blank">View Niña’s Github Profile</a></p>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <img src="jocel encio.jpg" alt="Encio, Jocel">
+            <div class="info">
+                <h2>Encio, Jocel</h2>
+                <p>Jocel mataray ka daw.</p>
+                <input type="checkbox" id="read-more-jocel">
+                <label for="read-more-jocel">Read More</label>
+                <div class="more">
+                    <p><strong>Age:</strong> 22 <br>
+                    <strong>Birthday:</strong> June 25, 2002 <br>
+                    <strong>Contact Number:</strong> 09946281902 <br>
+                    <strong>Address:</strong> 1619 Purok 6 Caingin, Santa Rosa, Laguna</p>
+                </div>
+                <p><a href="#" target="_blank">View Jocel’s Github Profile</a></p>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <img src="jansent bazar.jpg" alt="Bazar, Jansent">
+            <div class="info">
+                <h2>Bazar, Jansent</h2>
+                <p>Jansent bossing kamusta ang buhay buhay.</p>
+                <input type="checkbox" id="read-more-john">
+                <label for="read-more-john">Read More</label>
+                <div class="more">
+                    <p><strong>Age:</strong> 21 <br>
+                    <strong>Birthday:</strong> November 12, 2002 <br>
+                    <strong>Contact Number:</strong> 09918142152 <br>
+                    <strong>Address:</strong> Blk 14 lot 6 Ostrich St. Camella Homes Woodhills, Brgy. San Antonio, San Pedro, Laguna</p>
+                </div>
+                <p><a href="#" target="_blank">View Jansent’s Github Profile</a></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Thank you for visiting our team page! We hope you enjoyed learning more about us. If you have any questions or would like to get in touch, please <a href="#">contact us</a>.</p>
+    </footer>
+</body>
+</html>
